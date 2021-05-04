@@ -1,0 +1,207 @@
+#form{
+	width: 75%;
+	margin:0 auto;
+}
+
+/*header.php*/
+#logo{
+	width:120px;
+	height:120px;
+	float:left;
+}
+
+#Header{
+	height: 30px;
+	text-align: center;
+}
+
+#NavbarMain{
+	height: 90px;
+	background-color: #ffffff !important; 
+}
+
+.navbar-nav{
+	width: 100%;
+	height: 100%;
+}
+
+#MainSearch{
+	width:70%;
+}
+
+#formHeader{
+	width:50%;
+}
+
+#formHeader2{
+	width:50%;
+}
+
+hr{ 
+    border: none;
+    border-left: 1px solid hsla(200, 20%, 50%,1);
+    height: 17px;
+    width: 1px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;       
+}
+
+/*/header.php*/
+
+/*menu.php*/
+
+#left-menu{
+	margin-top: 20px;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+#menu{
+	width: 100%;
+	height: auto;
+}
+
+.dropright:hover>.dropdown-menu{
+	display: block;
+}
+
+.dropdown-menu{
+	border: 0px;
+	padding: 0;
+}
+
+#menu li:hover{
+	color:#FFFFFF;
+	background-color: #495057;
+}
+
+#menu li a{
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*/menu.php*/
+
+/*component.php*/
+
+.card a{
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+}
+
+#card-top{
+	background: #aafacf;
+	display: flex;
+	align-items: center;
+	height:247px;
+	text-align: center;
+	justify-content: center;
+}
+
+.container .card #card-top img{
+	height:auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+    background: radial-gradient(white 20%, #aafacf 80%);
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+
+.card-title{
+	height: 64px;
+}
+
+p#description.card-text{
+	height: 72px;
+	text-align: center;
+}
+
+/*/component.php*/
+
+/*login.php signup.php*/
+
+.SignLogin{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.SignLogin h1{
+	margin-bottom: 25px
+}
+
+/*/login.php signup.php*/
+
+/*product.php*/
+
+.product{
+	border: 1px solid gray;
+}
+
+.product_image{
+	width:100%;
+	height:auto;
+	max-width:100%;
+	background:radial-gradient(white 20%, #aafacf 80%);
+}
+
+.productOpis{
+	border:2px solid gray;
+}
+
+/*/product.php*/
+
+/*cart.php*/
+
+.cart{
+	margin:2em auto;
+}
+
+.cartitem{
+	width: 199px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border:1px solid black;
+	background-color:#aafacf
+}
+
+.card-img{
+	background: radial-gradient(white 20%, #aafacf 80%);
+}
+
+.quantityInput{
+	border: none;
+	text-align: center;
+	width: 30px;
+}
+
+.quantityDiv{
+	display:flex; 
+	justify-content:center;
+	align-items:center;
+}
+
+.quantity{
+	height:auto;
+	font-size:2em;
+}
+
+/*/cart.php*/
+
+/*admin menu*/
+
+#DeleteID{
+	margin-left:10px;
+    margin-top:5px;
+	height: 2em;
+}
+
+/*/admin menu*/
